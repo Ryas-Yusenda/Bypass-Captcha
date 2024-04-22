@@ -1,0 +1,19 @@
+{
+    "name": "bypass-captcha",
+    "version": "1.0.0",
+    "description": "How to bypass captcha text",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Ryas-Yusenda",
+    "license": "ISC",
+    "dependencies": {
+        "puppeteer": "^22.6.5",
+        "puppeteer-extra": "^3.3.6",
+        "puppeteer-extra-plugin-adblocker": "^2.13.6",
+        "puppeteer-extra-plugin-stealth": "^2.11.2",
+        "puppeteer-recaptcha-bypass": "^1.0.1",
+        "tesseract.js": "^5.0.5"
+    }
+}
